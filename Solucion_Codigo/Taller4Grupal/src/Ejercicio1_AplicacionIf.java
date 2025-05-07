@@ -17,7 +17,7 @@ public class Ejercicio1_AplicacionIf {
         Ejecutar1 a = new Ejecutar1(n, p, nP);
         a.calcularDescuento(p);
         a.calcularCompraFinal(p);
-        // System.out.println("El vendedor " + v.getNombre() + " Con " + v.getEdad() + " anios vendio " + v.getNumAutos() + " autos con salario " + v.getSalario() + " tine un sueldo de " + v.getPagoMensual());
+       
 
         System.out.println("El nombre del producto es: "+a.getProducto()+" el precio del producto es: " + a.getPrecio()+" y un total de: " + a.getNumProductos() + " con un descuento de: "+a.getDescuento()+" el costo de la compra final tiene un valor de: "+a.getCompraFinal());
     }
